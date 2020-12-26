@@ -1,0 +1,13 @@
+[package]
+name = "pngrun"
+version = "0.1.0"
+authors = ["djhworld"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.80"
+scopeguard = "1.1.0"
+steg = { path = "../steg" }
+
